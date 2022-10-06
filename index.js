@@ -8,5 +8,8 @@ app.get('/', (req, res) => {
     res.send('Hi wokers!')
 })
 
-app.listen(3000)
+//app.listen(3000)
+addEventListener('fetch', (e) => {
+    e.respondWith(app.handle(e.request))
+})
 
