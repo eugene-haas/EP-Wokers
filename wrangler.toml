@@ -1,0 +1,4 @@
+name = "ep-workers"
+main = "index.js"
+compatibility_date = "2022-10-08"
+node_compat=true
